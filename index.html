@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="quiz-container">
+        <div class="quize-header">
+        <h2 id="question">Question text</h2>
+        <ul>
+            <li>
+                <input type="checkbox" id="a" class="answer"
+                name="answer">
+                <label id="a_text" for="a">Question   </label>
+            </li>
+            <li>
+                <input type="checkbox" id="b" class="answer"
+                name="answer">
+                <label   id="b_text" for="b">Question   </label>
+            </li>
+            <li>
+                <input type="checkbox" id="c" class="answer"
+                name="answer">
+                <label  id="c_text" for="c">Question   </label>
+            </li>
+            <li>
+                <input type="checkbox" id="d" class="answer"
+                name="answer">
+                <label  id="d_text" for="d">Question   </label>
+            </li>            
+        </ul>
+    </div>
+        <button id="submit">submit</button>
     
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
